@@ -1,0 +1,46 @@
+.footer{
+    background-image:url('yellow3.png') ;
+    /* transform: scaleY(-1); */
+    background-position-y: 65%; 
+    /* border-radius:2cqmin; */
+   /* background-blend-mode:darken;
+    background-position-y: 65%; 
+    /* background: #FFFADA; */
+    /*background-color: teal;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 70px;
+    border-radius: 20px;
+ 
+   
+}
+ 
+.footer .heading{
+    font-size: 14pt;
+    margin-left: 20PX;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+ 
+}
+ 
+.footer .details{
+    font-size: 10pt;
+    margin-left: 20PX;
+}
+ 
+ 
+ 
+.footer p{
+    color: black;
+    margin-left: 20PX;
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+ 
+.social img{
+    margin-left: 20PX;
+    width: 50px;
+    height: 50px;
+}
+
