@@ -1,27 +1,28 @@
+// App.js
 
-import './App.css';
+import './App.css'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './NavBar';
-import AboutUs from './AboutUs';
 import Products from './Products';
 import Home from './Home.js';
-import {BrowserRouter as Router,Routes,Route,Link} from 'react-router-dom';
 import Footer from './Footer.js';
-
+import AboutUs from './AboutUs';
 
 function App() {
   return (
     <Router>
-       <div className="App">
-          <Navbar/>
-  
-          <Routes>
-            <Route exact path="/" element= {<Home/>}/>
-            <Route path="/products" element={<Products/>} />
-            <Route path="/contact" element={<AboutUs/>} />
-          </Routes>
+      <div className="App">
+        <Navbar />
 
-          <Footer/>
-        </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/contact" element={<AboutUs />} />
+        </Routes>
+
+        <Footer />
+      </div>
     </Router>
   );
 }
