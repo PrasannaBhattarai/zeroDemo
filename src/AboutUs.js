@@ -58,9 +58,9 @@ function AboutUs() {
     <h1>KNOW MORE</h1>
     
     <ul className='list'>
-      <li>about what we do?</li>
-      <li>about how we do?</li>
-      <li>interest</li>
+      <li><h2>about what we do?</h2></li>
+      <li><h2>about how we do?</h2></li>
+      <li><h2>interest</h2></li>
     </ul>  
 
   

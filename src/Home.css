@@ -1,80 +1,88 @@
 .main-content {
+    position: relative;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    border: none; /* Set border to none */
+    border: none;
     margin: auto;
     padding-left: 10px;
     text-align: center;
-    flex-wrap: wrap; /* Wrap to a new line on smaller screens */
-}
-.mainPic{
-    margin-top: 20px;
-    /* background-color: black; */
-    width: 100%;
-    height: 400px;
-    /* border-radius: 20px; */
+    flex-wrap: wrap;
 }
 
-.mainPic img{
+.mainPic {
+    position: relative;
+    margin-top: 30px;
     width: 100%;
-    height: 400px;
+    height: 15vh;
+    overflow: hidden;
+}
+
+.mainPic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
     border-radius: 25px;
 }
 
+.parallax-text {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 768px) {
+    .mainPic {
+        height: 200px;
+    }
+    .mainPic img {
+        border-radius: 5px;
+    }
+}
+
+
+
 .sub-div {
-    /* float: left; */
     display: block;
     width: 42%;
     box-sizing: border-box;
-    /* border-style: dashed; */
     border-radius: 30px;
-    /* background-color: beige; */
-    /* margin-left: 5px; */
-    align-items: center;
-    padding-left: 30px;
-    margin: 45px;
-    padding-top: 30px;
+    padding: 15px;
+    margin: 10px 0;
 }
 .section{
-    /* float: left; */
     display: grid;
-    /* grid-row-start: auto; */
     width: 90%;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
-    /* background-color:blue ; */
-    /* align-items: center; */
     
 }
 
 .img-section{
-    /* float: left; */
-    /* display: inline-block; */
     width: 100%;
     height: 100%;
     margin-bottom: 20px;
     align-items: center;
-    /* height: 250px; */
-    /* /* float: left; 
-    width: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
-    /* background-color: rgb(14, 14, 7); */
 }
 .text-box {
-    /* flex: 1; */
-    /* display: inline-block; */
     width: 100%;
-    /* padding: 40px; */
-    /* box-sizing: border-box; */
-    /* background-color: #110d0d; */
     border-radius: 1vh;
     overflow: hidden;
-    word-wrap: break-word; /* Allow long words to wrap */
-    /* align-items: center; */
+    word-wrap: break-word;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 
@@ -82,12 +90,9 @@
 .img-section img {
     align-items: center;
     /* float: left; */
-     width: 200px; /*Set a fixed width for the image */
-    height: 200px; /*Set a fixed height for the image */
+     width: 200px;
+    height: 200px;
      
-    /* Ensures the image doesn't stretch */
-    /* object-fit: cover; */
-    /* display: flex; */
     margin: 5px;
     border-radius: 10px;
     transition: transform .4s ease;  
@@ -131,37 +136,44 @@
             width: 100%;
             display: block;
             float:none;
-            /* margin: 10px; */
         }
         .text-box {
-            /* align-items: center; */
             display: block;
             width: 78%;
             padding: 10px;
             box-sizing: border-box; 
-            /* background-color: #c0a5a5; */
             border-radius: 1vh;
-            /* overflow: none; */
-          /* word-wrap: break-word;  */
-             /* Allow long words to wrap */
         }
 
         .sub-div img {
         
-            width: 220px; /*Set a fixed width for the image */
-           height: 220px; /*Set a fixed height for the image */
-           object-fit: cover; /* Ensures the image doesn't stretch */
+            width: 220px;
+           height: 220px;
+           object-fit: cover;
            display: block;
-           /* margin: 0 auto; */
            align-items: center;
-           /* background-color: rebeccapurple; */
        }
 
        .img-section{
         align-items:center ;
-        /* background-color: black; */
         width: 100%;
        }
     }
 
-
+    .yellow-background {
+        width: 100%;
+    }
+    
+    .icon-background {
+        position: relative;
+        width: 100%;
+        min-height: 40vh;
+        background-image: url('./features.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    
+        @media screen and (max-width: 768px) {
+            min-height: 20vh;
+        }
+    }
