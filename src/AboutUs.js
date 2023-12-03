@@ -47,12 +47,25 @@ function AboutUs() {
         phoneNumber: '',
         description: '',
       });
-    } catch (error) {
+    window.alert("Submitted Successfully")} catch (error) {
       console.log(error);
     }
   };
 
-  return (
+  return (<>
+
+  <div className='contact-us'>
+    <h1>KNOW MORE</h1>
+    
+    <ul className='list'>
+      <li>about what we do?</li>
+      <li>about how we do?</li>
+      <li>interest</li>
+    </ul>  
+
+  
+  </div>
+
     <div className="form-container">
       <h1>Drop a Note!</h1>
       <br/>
@@ -122,6 +135,7 @@ function AboutUs() {
         </button>
       </form>
     </div>
+    </>
   );
 }
 
