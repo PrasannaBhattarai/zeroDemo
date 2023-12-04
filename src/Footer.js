@@ -1,23 +1,35 @@
 import React from "react";
 import './Footer.css';
+import insta from './insta.png';
+import facebook from './Facebook_Logo_2023.png';
+import {Link } from 'react-router-dom';
+
 
 function Footer(){
-    return(
-
-        <div class="footer" id="footer">
-            <hr></hr>
-           
-        <div class="contact">
-            <p >Contact Us</p>
-            <p >Phone no: 9800000000<br/>
-                Email: syz@gmail.com</p>
+    return(<>
+        <hr></hr>
+        
+        <div class="footer-basic">
+        <div className="socials">
+        <h4>Socials:</h4>
+        <a href="https://www.facebook.com/zerocircular"><img src={facebook}></img></a>
+        <a href="https://www.instagram.com/zero.circular/"><img src={insta}></img></a>
+       
         </div>
-        <div class="social">
-            <p>Socials:</p>
-			<img src="img/fb.png"></img>
-            <img src="img/insta.png"></img>
-        </div>
+    
+            <ul class="list-inline">
+                <li class="list-inline-item"><Link to="/">Home</Link></li>
+                <li class="list-inline-item"><Link to="/contact">Contact Us</Link></li>
+                <li class="list-inline-item"><Link to="#">Terms</Link></li>
+                <li class="list-inline-item"><Link to="#">Privacy Policy</Link></li>
+            </ul>
+            <p class="copyright">Zero © 2023</p>
+       
+    
     </div>
+
+        </>
+
 
     );
 }
