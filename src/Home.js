@@ -5,11 +5,17 @@ import picMain from './banana.jpg';
 import pic2 from './pic2.JPG';
 import pic3 from './bigimg.jpg';
 
-import pan1 from "./pan2.jpg";
-import pan2 from "./pan4.jpg";
-import pan3 from "./pan5.jpg";
-import pan4 from "./pan3.jpg";
-import pan5 from "./pan1.jpg";
+// import pan1 from "./pan2.jpg";
+// import pan2 from "./pan4.jpg";
+// import pan3 from "./pan5.jpg";
+// import pan4 from "./pan3.jpg";
+// import pan5 from "./pan1.jpg";
+
+import pan1 from "./competitive.jpg";
+import pan2 from "./climate friendly.jpg";
+import pan3 from "./hands.jpg";
+import pan4 from "./biobased.jpg";
+import pan5 from "./recycleable.jpg";
 
 function Home() {
     return (
@@ -61,12 +67,12 @@ function Home() {
                     <div className="panels">
                         
                     <div class="panel-content">
-                            <img src={pan1} alt="Image 4"/>
+                            <img src={pan2} alt="Image 4"/>
                         </div>
                     </div>
                     <div className="panels">
                         <div class="panel-content">
-                            <img src={pan2} alt="Image 4"/>
+                            <img src={pan1} alt="Image 4"/>
                         </div>
                     </div>
                     <div className="panels">
@@ -76,12 +82,12 @@ function Home() {
                     </div>
                     <div className="panels">
                         <div class="panel-content">
-                            <img src={pan4} alt="Image 4"/>
+                            <img src={pan5} alt="Image 4"/>
                         </div>
                     </div>
                     <div className="panels">
                         <div class="panel-content">
-                            <img src={pan5} alt="Image 5"/>
+                            <img src={pan4} alt="Image 5"/>
                         </div>
                     </div>
     </div>
