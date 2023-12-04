@@ -1,3 +1,5 @@
+
+
 .main-content {
     position: relative;
     display: flex;
@@ -35,12 +37,13 @@
     z-index: 1;
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em; /* Adjust font size for responsiveness */
     font-weight: bold;
-    padding: 20px;
+    padding: 10px; /* Adjust padding for responsiveness */
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.5);
 }
+
 
 @media screen and (max-width: 768px) {
     .mainPic {
@@ -163,17 +166,56 @@
     .yellow-background {
         width: 100%;
     }
+
     
     .icon-background {
-        position: relative;
-        width: 100%;
-        min-height: 40vh;
-        background-image: url('./features.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-    
-        @media screen and (max-width: 768px) {
-            min-height: 20vh;
-        }
+    padding: 1% 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgb(225, 255, 54);
+    opacity: 0.8;
+    border-radius: 5vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+    @media screen and (max-width: 768px) {
+        min-height: 20vh;
     }
+}
+
+.panels {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(225, 255, 54);
+    border-radius: 5vh;
+    margin: 5px;
+}
+
+.panel-content {
+    border-radius: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 40vh; /* Set a maximum height for the panel-content */
+    overflow: hidden; /* Hide overflow to prevent issues */
+}
+
+.panel-content img {
+    width: 100%; /* Make the image width 100% of the parent div */
+    height: 100%; /* Make the image height 100% of the parent div */
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+
+
+
+.panel-content h1 {
+    margin: 0;
+}
