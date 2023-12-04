@@ -27,6 +27,8 @@ function Home(){
         <img src={picMain} alt="Section 1 Image"></img>
         </div>
 
+        <div className="parallax-text">Eliminating material waste through regenerative products ♻️</div>
+
         <div className="yellow-background">
                 <div className="icon-background">
                     <div className="panels">
