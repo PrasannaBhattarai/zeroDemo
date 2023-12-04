@@ -34,7 +34,7 @@ function Home(){
             </div>
                  <div className="text-box">
                     <h3>Section 2</h3>
-                    <p>Sample gyaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaat</p>
+                    <p>Sample </p>
                 </div>
                
              </div>
