@@ -60,7 +60,7 @@ function Home(){
     </div>
 </div>
 
-
+<div className="parallax-text">Products</div>
 
         <div className="sub-div">
             <div className="section">
