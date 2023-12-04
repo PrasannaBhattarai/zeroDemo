@@ -4,6 +4,18 @@ import pic1 from './pic1.JPG';
 import picMain from './bigimg1.jpg';
 import pic2 from './pic2.JPG';
 
+// import pan1 from "./pan2.jpg";
+// import pan2 from "./pan4.jpg";
+// import pan3 from "./pan5.jpg";
+// import pan4 from "./pan3.jpg";
+// import pan5 from "./pan1.jpg";
+
+import pan1 from "./competitive.jpg";
+import pan2 from "./climate friendly.jpg";
+import pan3 from "./hands.jpg";
+import pan4 from "./biobased.jpg";
+import pan5 from "./recycleable.jpg";
+
 function Home(){
     return(
         // window.onscroll = <ScrollFunction/>
