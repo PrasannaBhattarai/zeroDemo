@@ -1,6 +1,6 @@
 .App {
   text-align: center;
- 
+ /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif; */
 }
 
 .App-logo {
@@ -30,6 +30,8 @@
   color: white;
 
 }
+
+
 
 .App-link {
   color: #61dafb;
