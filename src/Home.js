@@ -4,6 +4,7 @@ import pic1 from './pic1.JPG';
 import picMain from './mainPic1.jpg';
 import pic2 from './pic2.JPG';
 import biogarbage from './biogarbage.jpeg';
+import grocerybag from './grocery bags.png'
 import tattoo from './tattoo.png';
 
 import pan1 from "./pan2.jpg";
@@ -213,6 +214,18 @@ We take nature as an example - since in nature, there is no such thing as waste,
             </div>
                  
              </div>
+
+             {/* <div className="section">
+                <div className="img-section">
+            <img src={grocerybag} alt="Section 2 Image"></img>
+            <div className="text-box">
+                    <h3>Bio-Garbage Bag</h3>
+                    <p >Make a positive choice for your waste and contribute to a cleaner, greener world with our Bio-Garbage Bags.</p>
+                </div>
+               
+            </div>
+                 
+             </div> */}
         </div>
 <br/><br/>
         <div className="parallax-text"><span><mark>Our Solutions</mark></span></div>
