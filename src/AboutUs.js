@@ -60,7 +60,7 @@ function AboutUs() {
     <ul className='list'>
       <li><h2>about what we do?</h2></li>
       <li><h2>about how we do?</h2></li>
-      <li><h2>interest</h2></li>
+      <li><h2>interested in working with us?</h2></li>
     </ul>  
 
   
