@@ -12,6 +12,11 @@ import pan3 from "./pan5.jpg";
 import pan4 from "./pan3.jpg";
 import pan5 from "./pan1.jpg";
 
+import bigImg from './bigimg.png';
+import recycle from './recycle1.jpg';
+import compost from './compost.jpg';
+import certified from './certified.png';
+
 import week1 from './Week 1.jpg';
 import week2 from './Week 2.jpg';
 import week5 from './Week 5.jpg';
@@ -22,6 +27,9 @@ import week7 from './Week 7.jpg';
 // import pan3 from "./hands.jpg";
 // import pan4 from "./biobased.jpg";
 // import pan5 from "./recycleable.jpg";
+
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 function Home(){
     return(
@@ -138,7 +146,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
                     </div>
     </div>
 </div> */}
-
+<br/><br/>
 <div className="parallax-text"><span><mark>Our Products</mark></span>
 </div>
 <br></br>
@@ -206,6 +214,64 @@ We take nature as an example - since in nature, there is no such thing as waste,
                  
              </div>
         </div>
+<br/><br/>
+        <div className="parallax-text"><span><mark>Our Solutions</mark></span></div>
+        <br/>
+
+        {/* bootstrap */}
+        <div className="row">
+            
+                
+                <div className="col-md-6 mb-4">
+                    <Card style={{ width: '100%' }}>
+                        <Card.Img variant="top" src={bigImg} className="custom-img" />
+                        <Card.Body>
+                            <Card.Title>Home Compostable</Card.Title>
+                            <Card.Text>
+                            Home compostable products are designed to break down naturally in home composting systems. These eco-friendly items contribute to reducing waste and environmental impact.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className="col-md-6 mb-4">
+                    <Card style={{ width: '100%' }}>
+                        <Card.Img variant="top" src={compost} className="custom-img" />
+                        <Card.Body>
+                            <Card.Title>Eco-Friendly and Sustainable</Card.Title>
+                            <Card.Text>
+                            Our commitment to sustainability extends beyond products to practices. Embrace a greener lifestyle with our eco-friendly solutions.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className="col-md-6 mb-4">
+                    <Card style={{ width: '100%' }}>
+                        <Card.Img variant="top" src={recycle} className="custom-img" />
+                        <Card.Body>
+                            <Card.Title>Recycled Products</Card.Title>
+                            <Card.Text>
+                            Embrace the beauty of repurposed materials with our recycled products. Explore our recycled collection for a greener and more responsible lifestyle.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+                <div className="col-md-6 mb-4">
+                    <Card style={{ width: '100%' }}>
+                        <Card.Img variant="top" src={certified} className="custom-img" />
+                        <Card.Body>
+                            <Card.Title>Certified Products</Card.Title>
+                            <Card.Text>
+                            Confirmed Compostable by IS/ISO 17088
+                            <br/>
+                            Locally verified by NAST
+
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </div>
+            </div>
+
+
     </div>
 
 

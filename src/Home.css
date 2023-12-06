@@ -367,3 +367,61 @@
     height: 250px;
     object-fit: cover;
 }
+
+
+/* bootstrap */
+.custom-img {
+    width: 50%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.card-title{
+    margin: auto;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 17px; /* Adjust the font size as needed */
+    width: 60%;
+    max-height: 80px; /* Adjust the max height as needed */
+    margin: auto;
+    max-width: 100%; /* Adjust as needed */
+    padding: 3% 10% 13%;
+}
+
+header{
+    margin: auto;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-img{
+        max-width: 40%;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-text{
+        padding-bottom: 25%;
+    }
+}
+
