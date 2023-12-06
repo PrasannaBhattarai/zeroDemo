@@ -4,6 +4,7 @@ import pic1 from './pic1.JPG';
 import picMain from './mainPic1.jpg';
 import pic2 from './pic2.JPG';
 import biogarbage from './biogarbage.jpeg';
+import tattoo from './tattoo.png';
 
 import pan1 from "./pan2.jpg";
 import pan2 from "./pan4.jpg";
@@ -48,7 +49,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
                 <p><mark>ZERO</mark> is working to shift Kathmandu into being more sustainable. First, with biodegradable plastic alternatives made from corn. It 
                     has all the functionality of plastics, but whithout the same environment footprint.</p>
                 <div className="img-section1">
-                <img src={pic1} alt="Section 1 Image"></img>
+                <img src={tattoo} alt="Section 1 Image"></img>
                  </div>
                 
              </div>
@@ -65,7 +66,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
                 <img src={week1} alt="Section 1 Image"></img>
                 <div className="text-box">
                     <h3>Week 1</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p >Biodegradable plastics undergo the initial stages of breakdown. Factors such as sunlight, moisture, and microbial presence contribute to the initiation of degradation.</p>
                 </div>
                  </div>
             
@@ -76,7 +77,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
             <img src={week2} alt="Section 2 Image"></img>
             <div className="text-box">
                     <h3>Week 2</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <p >Microbial activity intensifies in the second week. These microorganisms produce enzymes that play a pivotal role in depolymerizing the larger plastic molecules.</p>
                 </div>
                
             </div>
@@ -88,7 +89,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
             <img src={week5} alt="Section 2 Image"></img>
             <div className="text-box">
                     <h3>Week 5</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p >The concerted action of microbial communities and environmental conditions leads to the continued breakdown of the plastic polymer chains into smaller fragments.</p>
                 </div>
                
             </div>
@@ -99,7 +100,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
             <img src={week7} alt="Section 2 Image"></img>
             <div className="text-box">
                     <h3>Week 7</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p >The smaller plastic fragments further disintegrate, and the material undergoes significant changes in its physical and chemical properties due to prolonged exposure to natural elements.</p>
                 </div>
                
             </div>
@@ -172,10 +173,10 @@ We take nature as an example - since in nature, there is no such thing as waste,
         <div className="sub-div">
             <div className="section">
                 <div className="img-section">
-                <img src={pic2} alt="Section 1 Image"></img>
+                <img src={pic1} alt="Section 1 Image"></img>
                 <div className="text-box">
                     <h3>Bio-Packaging Bag</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p >Experience the perfect blend of functionality and sustainability in every package.</p>
                 </div>
                  </div>
             
@@ -183,10 +184,10 @@ We take nature as an example - since in nature, there is no such thing as waste,
 
              <div className="section">
                 <div className="img-section">
-            <img src={pic1} alt="Section 2 Image"></img>
+            <img src={pic2} alt="Bio-Grocery Bags"></img>
             <div className="text-box">
-                    <h3>Section 2</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    <h3>Bio-Grocery Bags</h3>
+                    <p > Say goodbye to harmful toxins and embrace a greener, healthier shopping experience.</p>
                 </div>
                
             </div>
@@ -198,7 +199,7 @@ We take nature as an example - since in nature, there is no such thing as waste,
             <img src={biogarbage} alt="Section 2 Image"></img>
             <div className="text-box">
                     <h3>Bio-Garbage Bag</h3>
-                    <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    <p >Make a positive choice for your waste and contribute to a cleaner, greener world with our Bio-Garbage Bags.</p>
                 </div>
                
             </div>
